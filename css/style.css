@@ -1,0 +1,78 @@
+*{
+    font-family: 'Helvetica', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-padding-top: 1rem;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.services{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(17rem, auto));
+    align-items: center;
+    gap: 1.5rem;
+}
+.services-img img{
+    border-radius: 0.8rem;
+    padding-left: 30px;
+    width: 90%;
+}
+.services-text h2{
+    font-size: 1.8rem;
+}
+.services-text p{
+    font-size: 0.85rem;
+    font-weight: 300;
+    margin: 0.5rem 0 1.2rem;
+}
+.list{
+    font-size: 0.85rem;
+    font-weight: 300;
+    margin: 0.5rem 0 1.2rem;
+}
+.list li{
+    padding-top: 15px;
+}
+.footer{
+    background: white;
+    position: absolute;
+    width: 100vw;
+}
+.social{
+    padding: 0;
+}
+.h4{
+    padding: 15px 0px;
+}
+.social li{
+    display: inline-block;
+    background-color: #1226da;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    padding: 0cm;
+}
+.social li a i{
+    padding-top: 7px;
+    color: #fff;
+    transition: .3s;
+    font-size: 20px;
+}
+.card {
+    padding-top: 10px; 
+    padding-left: 20px;
+}
+.card i{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    padding: 0cm;
+    padding-top: 2px;
+}
