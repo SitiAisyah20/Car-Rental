@@ -6,34 +6,13 @@
     scroll-behavior: smooth;
     list-style: none;
     text-decoration: none;
-    box-sizing: border-box;
 }
-.services{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(17rem, auto));
-    align-items: center;
-    gap: 1.5rem;
+.jumbotron{
+    padding-top: 100px; 
+    background: #F1F3FF;
 }
-.services-img img{
-    border-radius: 0.8rem;
-    padding-left: 30px;
-    width: 90%;
-}
-.services-text h2{
-    font-size: 1.8rem;
-}
-.services-text p{
-    font-size: 0.85rem;
-    font-weight: 300;
-    margin: 0.5rem 0 1.2rem;
-}
-.list{
-    font-size: 0.85rem;
-    font-weight: 300;
-    margin: 0.5rem 0 1.2rem;
-}
-.list li{
-    padding-top: 15px;
+.text-normal-weight {
+    font-size: 14px;
 }
 .footer{
     background: white;
